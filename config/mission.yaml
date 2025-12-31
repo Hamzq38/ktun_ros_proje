@@ -1,0 +1,81 @@
+gorev_listesi:
+  # --- 1. YATAK ODASI ---
+  yatak_odasi:
+    qr_kodu: "ROOM=BEDROOM"
+    qr_timeout: 5
+    giris_noktasi:
+      x: -6.204
+      y: 0.941
+      z_orient: -0.705
+      w_orient: 0.710
+    qr_kontrol_noktasi:
+      x: -5.589
+      y: -0.231
+      z_orient: 0.707
+      w_orient: 0.707
+    temizlik_rotasi:
+      - {x: -5.391, y: -0.803}
+      - {x: -5.420, y: -2.617}
+      - {x: -5.403, y: -3.484}
+      - {x: -6.877, y: -3.455}
+      - {x: -6.877, y: 0.425}
+
+  # --- 2. SALON ---
+  salon:
+    qr_kodu: "ROOM=LIVINGROOM"
+    qr_timeout: 5
+    giris_noktasi:
+      x: -5.045
+      y: 3.146
+      z_orient: 0.005
+      w_orient: 1.000
+    qr_kontrol_noktasi:
+      x: -4.061
+      y: 1.581
+      z_orient: -0.999
+      w_orient: 0.012
+    temizlik_rotasi:
+      - {x: -2.939, y: 0.399}
+      - {x: -2.740, y: 4.565}
+      - {x: -0.639, y: 4.338}
+      - {x: -0.919, y: 0.481}
+
+  # --- 3. KORIDOR ---
+  koridor:
+    qr_kodu: "ROOM=CORRIDOR"
+    qr_timeout: 5
+    giris_noktasi:
+      x: -0.009
+      y: 0.433
+      z_orient: -0.019
+      w_orient: 1.000
+    qr_kontrol_noktasi:
+      x: 0.991
+      y: 0.338
+      z_orient: 0.776
+      w_orient: 0.631
+    temizlik_rotasi:
+      - {x: 2.671, y: 0.365}
+
+  # --- 4. MUTFAK ---
+  mutfak:
+    qr_kodu: "ROOM=KITCHEN"
+    qr_timeout: 5
+    giris_noktasi:
+      x: 2.671
+      y: 0.365
+      z_orient: -0.002
+      w_orient: 1.000
+    qr_kontrol_noktasi:
+      x: 3.207
+      y: 1.406
+      z_orient: 0.999
+      w_orient: 0.005
+    temizlik_rotasi:
+      - {x: 2.764, y: 4.290}
+      - {x: 6.885, y: 4.113}
+      - {x: 6.809, y: 0.536}
+      - {x: 4.630, y: 0.640}
+      - {x: 4.748, y: 2.555}
+      - {x: 2.892, y: 2.447}
+      - {x: 2.616, y: 0.344}

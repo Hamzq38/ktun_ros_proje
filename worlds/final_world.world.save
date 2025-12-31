@@ -1,0 +1,51 @@
+<sdf version='1.4'>
+  <world name='default'>
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+    </physics>
+
+    <include><uri>model://turtlebot3_house</uri></include>
+
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0.0 0.0 17.0 0 1.5708 0</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+    <include>
+      <name>qr_salon_poster</name>
+      <uri>model://QR_Salon</uri>
+      <pose>-5.093 1.549 0.169 0 0 1.563</pose>
+    </include>
+
+    <include>
+      <name>qr_koridor_poster</name>
+      <uri>model://QR_Koridor</uri>
+      <pose>0.776 0.797 0.089 0 0 0.000</pose>
+    </include>
+
+    <include>
+      <name>qr_mutfak_poster</name>
+      <uri>model://QR_Mutfak</uri>
+      <pose>2.356 1.482 0.177 0 0 1.568</pose>
+    </include>
+
+    <include>
+      <name>qr_yatak_poster</name>
+      <uri>model://QR_Yatak</uri>
+      <pose>-5.635 0.798 0.277 0 0 0.000</pose>
+    </include>
+
+  </world>
+</sdf>

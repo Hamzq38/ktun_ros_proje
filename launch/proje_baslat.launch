@@ -1,0 +1,13 @@
+<launch>
+  <include file="$(find ktun_ros_proje)/launch/gazebo_baslat.launch"/>
+
+  <arg name="map_file" default="$(find ktun_ros_proje)/maps/my_house_map.yaml"/>
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+    <arg name="map_file" value="$(arg map_file)"/>
+    <arg name="model" value="waffle_pi"/>
+  </include>
+
+  <node pkg="rqt_image_view" type="rqt_image_view" name="rqt_image_view" args="/camera/rgb/image_raw"/>
+
+  <node pkg="ktun_ros_proje" type="task_manager.py" name="task_manager" output="screen" />
+</launch>
