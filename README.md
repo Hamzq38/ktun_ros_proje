@@ -34,4 +34,4 @@ rostopic pub /komut std_msgs/String "data: 'mutfak'" --once
 
 -Görev Tamamlama: Odadaki belirlenen temizlik noktalarına gider, tamamlayınca bildirir.
 
-## Demo Videosu [Proje Demo Videosunu İzlemek İçin Tıklayın](./robotik.mp4)
+## Demo Videosu [Proje Demo Videosunu İzlemek İçin Tıklayın](./video/robotik.mp4)
