@@ -33,3 +33,5 @@ rostopic pub /komut std_msgs/String "data: 'mutfak'" --once
 -Tarama: QR kodu tespit ettiğinde içeriğini okur, terminale basar.
 
 -Görev Tamamlama: Odadaki belirlenen temizlik noktalarına gider, tamamlayınca bildirir.
+
+## Demo Videosu [Proje Demo Videosunu İzlemek İçin Tıklayın](./video_ismin.mp4)
